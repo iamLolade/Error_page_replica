@@ -1,0 +1,70 @@
+
+body{
+    font-family: 'Inconsolata', monospace;
+}
+
+.image {
+    height : 420px;
+    width : 135%
+}
+
+.error{
+    font-weight:bolder;
+    padding: 0.5%;
+    margin-left: 7%;
+    margin-top: 2%
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-bottom: 13%;
+}
+
+.shane {
+    margin-left: 20%;
+}
+
+.shane h1 {
+    font-size: 60px;
+    width: 85%;
+    word-spacing: 2px;
+}
+
+.shane p{
+    font-size: larger;
+    width: 45%;
+    word-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+button{
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+    transition: color 1s, background 1s;
+}
+
+button:hover {
+    background-color: #006ee9;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: rgb(138, 138, 125);
+}
+
+@media only screen and (max-width: 480px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+  }
+}
